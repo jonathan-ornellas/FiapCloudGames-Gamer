@@ -3,13 +3,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - Presentation", "1 - Pre
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - Application", "2 - Application", "{B2B2B2B2-B2B2-B2B2-B2B2-B2B2B2B2B2B2}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 - Domain", "3 - Domain", "{C3C3C3C3-C3C3-C3C3-C3C3-C3C3C3C3C3C3}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 - Shared", "3 - Domain", "{C3C3C3C3-C3C3-C3C3-C3C3-C3C3C3C3C3C3}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4 - Infrastructure", "4 - Infrastructure", "{D4D4D4D4-D4D4-D4D4-D4D4-D4D4D4D4D4D4}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5 - Shared", "5 - Shared", "{E5E5E5E5-E5E5-E5E5-E5E5-E5E5E5E5E5E5}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "6 - Tests", "6 - Tests", "{F6F6F6F6-F6F6-F6F6-F6F6-F6F6F6F6F6F6}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4 - Tests", "4 - Infrastructure", "{D4D4D4D4-D4D4-D4D4-D4D4-D4D4D4D4D4D4}"
 EndProject
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31919.166
