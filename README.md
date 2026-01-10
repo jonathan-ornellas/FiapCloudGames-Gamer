@@ -102,12 +102,6 @@ Acesse:
 dotnet test
 ```
 
-### Testes de Integração
-
-```bash
-dotnet test --filter "Integration"
-```
-
 ---
 
 ## 📝 Variáveis de Ambiente
