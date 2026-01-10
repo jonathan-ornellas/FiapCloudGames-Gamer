@@ -25,13 +25,9 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\src\Services\Users\FiapCloudGames.Users.Business\FiapCloudGames.Users.Business.csproj" />
-    <ProjectReference Include="..\..\src\Services\Games\FiapCloudGames.Games.Business\FiapCloudGames.Games.Business.csproj" />
-    <ProjectReference Include="..\..\src\Services\Payments\FiapCloudGames.Payments.Business\FiapCloudGames.Payments.Business.csproj" />
     <ProjectReference Include="..\..\src\Shared\FiapCloudGames.Domain\FiapCloudGames.Domain.csproj" />
-    <ProjectReference Include="..\..\src\Services\Users\FiapCloudGames.Users.Api\FiapCloudGames.Users.Api.csproj" />
-    <ProjectReference Include="..\..\src\Services\Games\FiapCloudGames.Games.Api\FiapCloudGames.Games.Api.csproj" />
-    <ProjectReference Include="..\..\src\Services\Payments\FiapCloudGames.Payments.Api\FiapCloudGames.Payments.Api.csproj" />
+    <ProjectReference Include="..\..\src\Services\Games\FiapCloudGames.Games.Application\FiapCloudGames.Games.Application.csproj" />
+    <ProjectReference Include="..\..\src\Services\Games\FiapCloudGames.Games.Presentation\FiapCloudGames.Games.Presentation.csproj" />
   </ItemGroup>
 
 </Project>
