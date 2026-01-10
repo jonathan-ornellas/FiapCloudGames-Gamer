@@ -1,0 +1,66 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31919.166
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FiapCloudGames.Games.Presentation", "src\Services\Games\FiapCloudGames.Games.Presentation\FiapCloudGames.Games.Presentation.csproj", "{1A1A1A1A-1A1A-1A1A-1A1A-1A1A1A1A1A1A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FiapCloudGames.Games.Application", "src\Services\Games\FiapCloudGames.Games.Application\FiapCloudGames.Games.Application.csproj", "{2B2B2B2B-2B2B-2B2B-2B2B-2B2B2B2B2B2B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FiapCloudGames.Games.Domain", "src\Services\Games\FiapCloudGames.Games.Domain\FiapCloudGames.Games.Domain.csproj", "{3C3C3C3C-3C3C-3C3C-3C3C-3C3C3C3C3C3C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FiapCloudGames.Games.Infrastructure", "src\Services\Games\FiapCloudGames.Games.Infrastructure\FiapCloudGames.Games.Infrastructure.csproj", "{4D4D4D4D-4D4D-4D4D-4D4D-4D4D4D4D4D4D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FiapCloudGames.Domain", "src\Shared\FiapCloudGames.Domain\FiapCloudGames.Domain.csproj", "{5E5E5E5E-5E5E-5E5E-5E5E-5E5E5E5E5E5E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FiapCloudGames.Shared", "src\Shared\FiapCloudGames.Shared\FiapCloudGames.Shared.csproj", "{6F6F6F6F-6F6F-6F6F-6F6F-6F6F6F6F6F6F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FiapCloudGames.EventSourcing", "src\Shared\FiapCloudGames.EventSourcing\FiapCloudGames.EventSourcing.csproj", "{7G7G7G7G-7G7G-7G7G-7G7G-7G7G7G7G7G7G}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FiapCloudGames.Tests.Unit", "tests\FiapCloudGames.Tests.Unit\FiapCloudGames.Tests.Unit.csproj", "{8H8H8H8H-8H8H-8H8H-8H8H-8H8H8H8H8H8H}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FiapCloudGames.Tests.Integration", "tests\FiapCloudGames.Tests.Integration\FiapCloudGames.Tests.Integration.csproj", "{9I9I9I9I-9I9I-9I9I-9I9I-9I9I9I9I9I9I}"
+EndProject
+Global
+GlobalSection(SolutionConfigurationPlatforms) = preSolution
+Debug|Any CPU = Debug|Any CPU
+Release|Any CPU = Release|Any CPU
+EndGlobalSection
+GlobalSection(ProjectConfigurationPlatforms) = postSolution
+{1A1A1A1A-1A1A-1A1A-1A1A-1A1A1A1A1A1A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+{1A1A1A1A-1A1A-1A1A-1A1A-1A1A1A1A1A1A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+{1A1A1A1A-1A1A-1A1A-1A1A-1A1A1A1A1A1A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+{1A1A1A1A-1A1A-1A1A-1A1A-1A1A1A1A1A1A}.Release|Any CPU.Build.0 = Release|Any CPU
+{2B2B2B2B-2B2B-2B2B-2B2B-2B2B2B2B2B2B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+{2B2B2B2B-2B2B-2B2B-2B2B-2B2B2B2B2B2B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+{2B2B2B2B-2B2B-2B2B-2B2B-2B2B2B2B2B2B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+{2B2B2B2B-2B2B-2B2B-2B2B-2B2B2B2B2B2B}.Release|Any CPU.Build.0 = Release|Any CPU
+{3C3C3C3C-3C3C-3C3C-3C3C-3C3C3C3C3C3C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+{3C3C3C3C-3C3C-3C3C-3C3C-3C3C3C3C3C3C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+{3C3C3C3C-3C3C-3C3C-3C3C-3C3C3C3C3C3C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+{3C3C3C3C-3C3C-3C3C-3C3C-3C3C3C3C3C3C}.Release|Any CPU.Build.0 = Release|Any CPU
+{4D4D4D4D-4D4D-4D4D-4D4D-4D4D4D4D4D4D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+{4D4D4D4D-4D4D-4D4D-4D4D-4D4D4D4D4D4D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+{4D4D4D4D-4D4D-4D4D-4D4D-4D4D4D4D4D4D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+{4D4D4D4D-4D4D-4D4D-4D4D-4D4D4D4D4D4D}.Release|Any CPU.Build.0 = Release|Any CPU
+{5E5E5E5E-5E5E-5E5E-5E5E-5E5E5E5E5E5E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+{5E5E5E5E-5E5E-5E5E-5E5E-5E5E5E5E5E5E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+{5E5E5E5E-5E5E-5E5E-5E5E-5E5E5E5E5E5E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+{5E5E5E5E-5E5E-5E5E-5E5E-5E5E5E5E5E5E}.Release|Any CPU.Build.0 = Release|Any CPU
+{6F6F6F6F-6F6F-6F6F-6F6F-6F6F6F6F6F6F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+{6F6F6F6F-6F6F-6F6F-6F6F-6F6F6F6F6F6F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+{6F6F6F6F-6F6F-6F6F-6F6F-6F6F6F6F6F6F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+{6F6F6F6F-6F6F-6F6F-6F6F-6F6F6F6F6F6F}.Release|Any CPU.Build.0 = Release|Any CPU
+{7G7G7G7G-7G7G-7G7G-7G7G-7G7G7G7G7G7G}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+{7G7G7G7G-7G7G-7G7G-7G7G-7G7G7G7G7G7G}.Debug|Any CPU.Build.0 = Debug|Any CPU
+{7G7G7G7G-7G7G-7G7G-7G7G-7G7G7G7G7G7G}.Release|Any CPU.ActiveCfg = Release|Any CPU
+{7G7G7G7G-7G7G-7G7G-7G7G-7G7G7G7G7G7G}.Release|Any CPU.Build.0 = Release|Any CPU
+{8H8H8H8H-8H8H-8H8H-8H8H-8H8H8H8H8H8H}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+{8H8H8H8H-8H8H-8H8H-8H8H-8H8H8H8H8H8H}.Debug|Any CPU.Build.0 = Debug|Any CPU
+{8H8H8H8H-8H8H-8H8H-8H8H-8H8H8H8H8H8H}.Release|Any CPU.ActiveCfg = Release|Any CPU
+{8H8H8H8H-8H8H-8H8H-8H8H-8H8H8H8H8H8H}.Release|Any CPU.Build.0 = Release|Any CPU
+{9I9I9I9I-9I9I-9I9I-9I9I-9I9I9I9I9I9I}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+{9I9I9I9I-9I9I-9I9I-9I9I-9I9I9I9I9I9I}.Debug|Any CPU.Build.0 = Debug|Any CPU
+{9I9I9I9I-9I9I-9I9I-9I9I-9I9I9I9I9I9I}.Release|Any CPU.ActiveCfg = Release|Any CPU
+{9I9I9I9I-9I9I-9I9I-9I9I-9I9I9I9I9I9I}.Release|Any CPU.Build.0 = Release|Any CPU
+EndGlobalSection
+EndGlobal
